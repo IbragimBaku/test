@@ -45,6 +45,22 @@
             bottom: 0; /* Размещаем подвал внизу */
             width: 100%; /* Подвал на всю ширину */
         }
+
+        button {
+            background-color: white; /* Белый фон */
+            color: #333; /* Тёмный текст */
+            border: 2px solid #333; /* Граница кнопки */
+            padding: 10px 20px; /* Внутренние отступы */
+            font-size: 18px; /* Размер шрифта */
+            cursor: pointer; /* Курсор при наведении */
+            border-radius: 5px; /* Скругленные углы */
+            margin-top: 20px; /* Отступ сверху */
+        }
+
+        button:hover {
+            background-color: #333; /* Тёмный фон при наведении */
+            color: white; /* Белый текст при наведении */
+        }
     </style>
 </head>
 <body>
@@ -63,6 +79,9 @@
     <main>
         <!-- Основной контент -->
         <h1>Привет, мир!</h1>
+        
+        <!-- Кнопка, ведущая на главную страницу -->
+        <button onclick="window.location.href='https://ibragimbaku.github.io/test/'">Перейти на главную</button>
     </main>
     
     <footer>
@@ -71,4 +90,3 @@
     </footer>
 </body>
 </html>
-
