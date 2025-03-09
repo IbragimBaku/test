@@ -5,23 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой сайт</title>     
     <style>
-        /* Стили для страницы */
         body {
             font-family: Arial, sans-serif; /* Шрифт */
             margin: 0; /* Убираем внешние отступы */
             padding: 0; /* Убираем внутренние отступы */
             text-align: center; /* Центрируем текст */
-            background: linear-gradient(to bottom, #333, #222); /* Градиент от темного к светлому */
+            background: linear-gradient(to bottom, #333, #aaa); /* Градиент от темного к светлому */
             height: 100vh; /* Заполняем весь экран */
         }
+
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Градиент для фона */
+            color: white; /* Белый цвет текста */
+            padding: 20px; /* Внутренний отступ */
+            font-size: 28px; /* Размер шрифта */
+            text-align: center; /* Центрируем текст */
+        }
+
+        header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        nav {
+            background: #444; /* Темно-серый фон */
+            padding: 10px; /* Внутренний отступ */
+        }
+
         nav a {
             color: white; /* Белый цвет ссылок */
             text-decoration: none; /* Убираем подчеркивание */
             margin: 10px; /* Отступы между ссылками */
         }
+
         main {
             padding: 20px; /* Отступ внутри основного контента */
         }
+
         footer {
             background: #222; /* Темный фон */
             color: white; /* Белый текст */
@@ -35,6 +55,7 @@
 <body>
     <header>
         <!-- Шапка сайта -->
+        <img src="path_to_your_logo.png" alt="Логотип">
         Добро пожаловать на мой сайт!
     </header>
     
@@ -56,3 +77,4 @@
     </footer>
 </body>
 </html>
+
